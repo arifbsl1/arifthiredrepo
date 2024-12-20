@@ -1,0 +1,11 @@
+version: '3.8'  # Specify the version of Docker Compose
+
+services:
+  springboot-app:
+    image: arifrepcrud         # Name of the image we built in the previous step
+    build: .             # Build the Docker image from the Dockerfile in the current directory
+    ports:
+      - "9190:9190"      # Map port 8080 on the host to port 8080 on the container
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev  # You can set environment variables if needed
+    restart: unless-stopped  # Restart policy in case of failure

@@ -121,7 +121,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>ArifFirstProject</finalName>
+		<finalName>ArifRepCrud</finalName>
 	</build>
 
 </project>
