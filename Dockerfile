@@ -10,5 +10,6 @@ COPY target/ArifRepCrud.jar /app/ArifRepCrud.jar
 # Expose the port that the application will run on
 EXPOSE 9192
 
+
 # Command to run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "ArifRepCrud.jar"]
