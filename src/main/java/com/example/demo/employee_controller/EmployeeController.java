@@ -32,7 +32,6 @@ public class EmployeeController {
             return responseEntity;
         }
     }
-/*
     @GetMapping("/getEmployee/{empId}")
     public ResponseEntity<Object> getEmployeeDetails(@PathVariable Integer empId) {
         try {
@@ -64,7 +63,7 @@ public class EmployeeController {
             return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-*/
+
     @PutMapping("/updateEmployee")
     public ResponseEntity<Object> updateEmployeeDetails(@RequestBody EmployeeModel employee) {
         try {
