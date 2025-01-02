@@ -32,7 +32,7 @@ public class EmployeeController {
             return responseEntity;
         }
     }
-
+/*
     @GetMapping("/getEmployee/{empId}")
     public ResponseEntity<Object> getEmployeeDetails(@PathVariable Integer empId) {
         try {
@@ -48,7 +48,7 @@ public class EmployeeController {
             return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
         }
     }
-
+*/
     @PostMapping("/newEmployee")
     public ResponseEntity<Object> addEmployeeDetails(@RequestBody EmployeeModel employee) {
         try {
