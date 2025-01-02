@@ -9,11 +9,11 @@
 		<version>3.3.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sms</groupId>
-	<artifactId>Spring-Boot-SMS</artifactId>
+	<groupId>com.crud</groupId>
+	<artifactId>Spring-Boot-Crud</artifactId>
 	<version>V-1.0</version>
-	<name>SMS</name>
-	<description>School Management S/W</description>
+	<name>Crud</name>
+	<description>Arif Spring Boot Crud</description>
 	<url />
 	<licenses>
 		<license />
@@ -28,7 +28,7 @@
 		<url />
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
