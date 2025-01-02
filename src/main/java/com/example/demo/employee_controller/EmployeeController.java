@@ -48,7 +48,7 @@ public class EmployeeController {
             return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
         }
     }
-*/
+
     @PostMapping("/newEmployee")
     public ResponseEntity<Object> addEmployeeDetails(@RequestBody EmployeeModel employee) {
         try {
@@ -64,7 +64,7 @@ public class EmployeeController {
             return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
+*/
     @PutMapping("/updateEmployee")
     public ResponseEntity<Object> updateEmployeeDetails(@RequestBody EmployeeModel employee) {
         try {
